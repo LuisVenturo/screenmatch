@@ -4,6 +4,8 @@ import com.luisventuro.screenmatch.modelos.Episodio;
 import com.luisventuro.screenmatch.modelos.Pelicula;
 import com.luisventuro.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         Pelicula miPelicula = new Pelicula();
@@ -52,6 +54,22 @@ public class Principal {
         episodio.setTotalVisualizaciones(300);
         
          filtroRecomendacion.filtra(episodio);
+
+
+         var peliculaDeBruno = new Pelicula();
+         peliculaDeBruno.setNombre("El señor de los anillos");
+         peliculaDeBruno.setDuracionEnMinutos(1801);
+         peliculaDeBruno.setFechaDeLanzamiento(2001);
+
+        ArrayList<Pelicula> listaDePelicula = new ArrayList<>();
+        listaDePelicula.add(peliculaDeBruno);
+        listaDePelicula.add(miPelicula);
+        listaDePelicula.add(otrapelicula);
+
+        System.out.println("Tamaño de la lista: "+listaDePelicula.size());
+        System.out.println("La primera pelicula es: "+listaDePelicula.get(0).getNombre());
+
+        System.out.println(listaDePelicula);
 
     }
 }
