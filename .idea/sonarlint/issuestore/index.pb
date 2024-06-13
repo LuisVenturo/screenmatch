@@ -17,3 +17,7 @@ k
 ;src/com/luisventuro/screenmatch/calculos/Clasificacion.java,c\8\c80f190f05c6f5006a0e63bed124f7c2b0547fcb
 q
 Asrc/com/luisventuro/screenmatch/calculos/FiltroRecomendacion.java,6\c\6cf22287be4f54c7ac945cdd9807771c8f4efff7
+h
+8src/com/luisventuro/screenmatch/principal/Principal.java,0\0\00ddef9a78db1145657c8df257c9ff4de30522e9
+q
+Asrc/com/luisventuro/screenmatch/principal/PrincipalConListas.java,e\6\e665e1194986951478305bd0ffbb0244d15eb028

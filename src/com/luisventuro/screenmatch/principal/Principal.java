@@ -1,3 +1,5 @@
+package com.luisventuro.screenmatch.principal;
+
 import com.luisventuro.screenmatch.calculos.CalculadoraDeTiempo;
 import com.luisventuro.screenmatch.calculos.FiltroRecomendacion;
 import com.luisventuro.screenmatch.modelos.Episodio;
