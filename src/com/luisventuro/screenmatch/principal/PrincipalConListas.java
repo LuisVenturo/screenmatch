@@ -1,5 +1,6 @@
 package com.luisventuro.screenmatch.principal;
 
+
 import com.luisventuro.screenmatch.modelos.Pelicula;
 import com.luisventuro.screenmatch.modelos.Serie;
 import com.luisventuro.screenmatch.modelos.Titulo;
@@ -23,7 +24,7 @@ public class PrincipalConListas {
         lista.add(peliculaDeBruno);
         lista.add(casaDragon);
 
-        for(Titulo item: lista){
+        for (Titulo item : lista) {
             System.out.println(item);
             //realizamos un casteo para convertir un item en pelicula
             Pelicula pelicula = (Pelicula) item;
