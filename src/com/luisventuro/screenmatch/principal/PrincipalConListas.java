@@ -18,6 +18,8 @@ public class PrincipalConListas {
         peliculaDeBruno.evalua(10);
         Serie casaDragon = new Serie("La casa del dragón", 2022);
 
+        Pelicula p1 = peliculaDeBruno;
+
         ArrayList<Titulo> lista = new ArrayList<>();
         lista.add(miPelicula);
         lista.add(otrapelicula);
@@ -26,9 +28,19 @@ public class PrincipalConListas {
 
         for (Titulo item : lista) {
             System.out.println(item);
-            //realizamos un casteo para convertir un item en pelicula
-            Pelicula pelicula = (Pelicula) item;
-            System.out.println(pelicula.getClasificacion());
+
+            //primera forma antes de java 14
+           /* if(item instanceof Pelicula){
+                //realizamos un casteo para convertir un item en pelicula
+                Pelicula pelicula = (Pelicula) item;
+                System.out.println(pelicula.getClasificacion());
+            }*/
+
+            //segunda forma despues de java 14
+            if (item instanceof Pelicula pelicula && pelicula.getClasificacion() >3) {
+                System.out.println(pelicula.getClasificacion());
+            }
+
         }
     }
 }
