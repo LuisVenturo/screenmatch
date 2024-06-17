@@ -5,8 +5,6 @@ e
 5src/com/luisventuro/screenmatch/modelos/Pelicula.java,5\b\5b7078d6154046cfa66d5b39180654ca09711af9
 b
 2src/com/luisventuro/screenmatch/modelos/Serie.java,7\0\70bb23720acf8ed12c9adef732bceed3aa0a7f02
-B
-src/Principal.java,e\6\e63c5d461036faa917f57dddca2fba9ea2257279
 q
 Asrc/com/luisventuro/screenmatch/calculos/calculadoraDeTiempo.java,8\c\8c222b33ffae5a0b4502f83ff040f72178a13b7d
 q

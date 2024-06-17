@@ -8,6 +8,7 @@ import com.luisventuro.screenmatch.modelos.Titulo;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class PrincipalConListas {
     public static void main(String[] args) {
@@ -58,6 +59,12 @@ public class PrincipalConListas {
         //comparación con listas de titulo, tuvimos que modificar puesto que no era un simplee String, sino un objeto
         Collections.sort(lista);
         System.out.println("Lista de titulos ordenados: "+lista);
+
+
+        //ordenar por Comparator
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento).thenComparing(Titulo::getNombre));//ordena de acuerdo a fecha si son iguales toma el orden por nombre
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento).reversed());//ordena por fecha, y reversed() lo invierte el orden
+        System.out.println("Lista ordenada por fecha: "+lista);
 
     }
 }

@@ -1,11 +1,14 @@
 
 S
-java:S1854"6Remove this useless assignment to local variable "p1".(òæÄ8‡ÙÎ¢‚2
+java:S1854"6Remove this useless assignment to local variable "p1".(òæÄ8åØâº‚2
 D
-java:S1481"'Remove this unused "p1" local variable.(òæÄ8ÙÎ¢‚2
-G	java:S106 "+Replace this use of System.out by a logger.(Òà´Ç8—ÙÎ¢‚2
-X	java:S125#"<This block of commented-out lines of code should be removed.(òòºê8˜ÙÎ¢‚2
-L	java:S106+"+Replace this use of System.out by a logger.(¢¸‹™şÿÿÿÿ8›ÙÎ¢‚2
-L	java:S1065"+Replace this use of System.out by a logger.(‘«¢Òüÿÿÿÿ8¢ÙÎ¢‚2
-L	java:S1068"+Replace this use of System.out by a logger.(€÷Ùêûÿÿÿÿ8¥ÙÎ¢‚2
-L	java:S106<"+Replace this use of System.out by a logger.(ªáÛßøÿÿÿÿ8¨ÙÎ¢‚2
+java:S1481"'Remove this unused "p1" local variable.(òæÄ8çØâº‚2
+G	java:S106!"+Replace this use of System.out by a logger.(Òà´Ç8èØâº‚2
+X	java:S125$"<This block of commented-out lines of code should be removed.(òòºê8èØâº‚2
+L	java:S106,"+Replace this use of System.out by a logger.(¢¸‹™şÿÿÿÿ8éØâº‚2
+L	java:S1066"+Replace this use of System.out by a logger.(‘«¢Òüÿÿÿÿ8êØâº‚2
+L	java:S1069"+Replace this use of System.out by a logger.(€÷Ùêûÿÿÿÿ8êØâº‚2
+L	java:S106="+Replace this use of System.out by a logger.(ªáÛßøÿÿÿÿ8ëØâº‚2
+L	java:S106C"+Replace this use of System.out by a logger.(çØ¿ëüÿÿÿÿ8ìØâº‚2
+S
+java:S1128	"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8”Üãº‚2
