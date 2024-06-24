@@ -19,6 +19,7 @@ public class PrincipalConBusqueda {
         System.out.println("Escriba el nombre de la película: ");
         var busqueda = lectura.nextLine();
         String direccion = "https://www.omdbapi.com/?t="+busqueda+"&apikey=d5244f96";
+        try {
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -35,9 +36,18 @@ public class PrincipalConBusqueda {
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
                 .create();
 
-        //Titulo miTitulo = gson.fromJson(json, Titulo.class);
-        TituloOmdb miTituloOmd = gson.fromJson(json, TituloOmdb.class);
-        System.out.println("Titulo: "+ miTituloOmd);
-        System.out.println();
+        TituloOmdb miTituloOmdb = gson.fromJson(json, TituloOmdb.class);
+        System.out.println("Titulo: "+ miTituloOmdb);
+
+
+            Titulo miTitulo = new Titulo(miTituloOmdb);
+            System.out.println(miTitulo);
+        }catch (NumberFormatException e){
+            System.out.println("Ocurrió un error");
+            System.out.println(e.getMessage());
+        }
+        System.out.println("Finalizó la ejecución del programa");
+
+
     }
 }
