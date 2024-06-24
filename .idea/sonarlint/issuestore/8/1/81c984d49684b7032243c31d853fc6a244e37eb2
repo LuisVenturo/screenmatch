@@ -1,0 +1,8 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(Íİí‘8¥ªÅÂ„2
+G	java:S106 "+Replace this use of System.out by a logger.(øŒ¼Æ8ªªÅÂ„2
+]	java:S125&"<This block of commented-out lines of code should be removed.(¯ïª ıÿÿÿÿ8–­ÇÄ„2
+L	java:S106("+Replace this use of System.out by a logger.(ÏÚàêùÿÿÿÿ8³ªÅÂ„2
+L	java:S106)"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ŠËùÄ„2
+i
+java:S1128"GRemove this unused import 'com.luisventuro.screenmatch.modelos.Titulo'.(àÿ¼âúÿÿÿÿ8‡­íÄ„2

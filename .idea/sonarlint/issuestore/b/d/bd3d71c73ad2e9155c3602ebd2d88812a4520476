@@ -1,6 +1,6 @@
 
 v
-java:S1210H"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(½µï´8á Ô¢‚2
-L	java:S106:"+Replace this use of System.out by a logger.(¤°ğØşÿÿÿÿ8¶ì³Èù1
-G	java:S106;"+Replace this use of System.out by a logger.(®ìŞ‹8·ì³Èù1
-G	java:S106<"+Replace this use of System.out by a logger.(ÁîÜ»8ı¾ûïù1
+java:S1210L"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(½µï´8ØàÑÂ„2
+L	java:S106>"+Replace this use of System.out by a logger.(¤°ğØşÿÿÿÿ8æàÑÂ„2
+G	java:S106?"+Replace this use of System.out by a logger.(®ìŞ‹8çàÑÂ„2
+G	java:S106@"+Replace this use of System.out by a logger.(ÁîÜ»8èàÑÂ„2

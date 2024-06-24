@@ -19,3 +19,7 @@ h
 8src/com/luisventuro/screenmatch/principal/Principal.java,0\0\00ddef9a78db1145657c8df257c9ff4de30522e9
 q
 Asrc/com/luisventuro/screenmatch/principal/PrincipalConListas.java,e\6\e665e1194986951478305bd0ffbb0244d15eb028
+s
+Csrc/com/luisventuro/screenmatch/principal/PrincipalConBusqueda.java,8\1\81c984d49684b7032243c31d853fc6a244e37eb2
+g
+7src/com/luisventuro/screenmatch/modelos/TituloOmdb.java,e\9\e99081a011869384787c251998c66d580369e6ec
